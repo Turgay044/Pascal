@@ -1,0 +1,4608 @@
+object Form1: TForm1
+  Left = 336
+  Height = 571
+  Top = 170
+  Width = 1134
+  Caption = 'Form1'
+  ClientHeight = 571
+  ClientWidth = 1134
+  LCLVersion = '2.0.2.0'
+  WindowState = wsMaximized
+  object Notebook1: TNotebook
+    Left = 0
+    Height = 459
+    Top = 112
+    Width = 1134
+    PageIndex = 1
+    Align = alClient
+    TabOrder = 0
+    object Page1: TPage
+      object JvGradient1: TJvGradient
+        Left = 0
+        Height = 459
+        Top = 0
+        Width = 1134
+        StartColor = clMenuHighlight
+        EndColor = clMenuBar
+      end
+    end
+    object Page2: TPage
+      object Panel2: TPanel
+        Left = 0
+        Height = 50
+        Top = 409
+        Width = 1134
+        Align = alBottom
+        ClientHeight = 50
+        ClientWidth = 1134
+        Color = clGradientActiveCaption
+        ParentColor = False
+        TabOrder = 0
+        object SpeedButton2: TSpeedButton
+          Left = 1
+          Height = 48
+          Hint = 'Değerlendir'
+          Top = 1
+          Width = 48
+          Align = alLeft
+          Flat = True
+          Glyph.Data = {
+            36100000424D3610000000000000360000002800000020000000200000000100
+            2000000000000010000064000000640000000000000000000000000000000000
+            0000000000000000000000000005000000270000004000000041000000400000
+            00400000003F0000003E0000003D0000003C0000003B0000003A000000390000
+            00380000003600000035000000340000003200000031000000300000002E0000
+            002D0000002C0000002B00000028000000120000000000000000000000000000
+            0000000000000000000000000032070707C30C0C0CE90D0D0DE90D0D0DE80D0D
+            0DE80D0D0DE70C0C0CE60B0B0BE60A0A0AE5090909E4080808E3070707E30606
+            06E2040404E2030303E1010101E1000000E0000000DF000000DF000000DE0000
+            00DE000000DD000000DC000000D2000000790000001400000000000000000000
+            000000000000000000030202026C0E0E0EFF0F0F0FFF171717FF242424FF2222
+            22FF212121FF1F1F1FFF1D1D1DFF1B1B1BFF191919FF161616FF131313FF1111
+            11FF0E0E0EFF0B0B0BFF090909FF070707FF060606FF060606FF050505FF0505
+            05FF040404FF000000FF000000FF000000D80000003200000000000000000000
+            00000000000000000004030303720D0D0DFF0D0D0DFF646464FFE6E6E6FFE7E7
+            E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7E7FFE6E6E6FFE4E4E4FFDFDF
+            DFFFD9D9D9FFD6D6D6FFDDDDDDFFE3E3E3FFE2E2E2FFE1E1E1FFE0E0E0FFDFDF
+            DFFFDEDEDEFF101010FF000000FF000000DD0000003400000000000000000000
+            000000000000000000030303036F111111FF0B0B0BFF636363FFE6E6E6FFE7E7
+            E7FFE7E7E7FFE7E7E7FFE6E6E6FFE2E2E2FFDCDCDCFFD3D3D3FFCACACAFFC1C1
+            C1FFBFBFBFFFCECECEFFCACACAFFDBDBDBFFE2E2E2FFE3E3E3FFE3E3E3FFE5E5
+            E5FFE5E5E5FF0B0B0BFF000000FF000000D90000003000000000000000000000
+            000000000000000000030202026C151515FF0B0B0BFF616161FFD9D5D2FFD6D1
+            CEFFD3CFCBFFCECAC6FFC6C2BFFFBFBBB8FFB9B6B3FFB5B2AFFFB5B1AEFFBBB8
+            B5FFCAC6C3FFB0ADAAFF595959FFE3E3E3FFE8E2DEFFDEC3AEFFE5E5E5FFE5E5
+            E5FFE1E1E1FF080808FF000000FF000000D50000002C00000000000000000000
+            000000000000000000030202026A151515FF0F0F0FFF606060FFDAD8D6FFD1CE
+            CCFFCAC7C5FFC4C2BFFFC0BDBBFFBEBBB9FFBFBCBAFFC3C0BEFFCDCAC7FFD7D3
+            D1FFAAAFB1FF141B1FFFADACACFFE2E1E0FFDBB393FFE1BDA0FFDCC0A9FFE5E5
+            E5FFDDDDDDFF050505FF000000FF000000D00000002900000000000000000000
+            0000000000000000000201010167151515FF141414FF5B5B5BFFD5D5D5FFD1D1
+            D1FFCECECEFFCDCDCDFFCECECEFFD3D3D3FFDADADAFFE2E2E2FFE5E5E5FFA3AF
+            B7FF38627CFF648295FFE6E6E6FFE3E3E3FFDFCEC0FFF0F0F0FFE4D6CCFFDFC9
+            B8FFD9D9D9FF030303FF000000FF000000CA0000002600000000000000000000
+            0000000000000000000300000067141414FF141414FF5D5D5DFFD3D3D3FFD3D3
+            D3FFD4D4D4FFD8D8D8FFDFDFDFFFE4E4E4FFE5E5E5FFE5E5E5FF8FA1ACFF305A
+            75FF467795FFB6C0C5FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE4E1
+            DEFFD3CBC4FF000000FF000000FF000000C40000002400000000000000000000
+            0000000000030000000900000068141414FF141414FF616161FFDADADAFFDEDE
+            DEFFE2E2E2FFE5E5E5FFE6E6E6FFE6E6E6FFE6E6E6FF6E7071FF28495EFF3E6D
+            8AFF729AB3FFE5E5E5FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6
+            E6FFD0D0D0FF000000FF000000FF000000BF0000002100000000000000000000
+            0003000000060000000A00000064151515FF151515FF666666FFE5E4E4FFE4E3
+            E3FFE4E3E3FFE4E4E3FFE4E4E4FFE5E4E4FFA1A1A1FF090909FF232323FF3E5B
+            6EFFB6C4CDFFE6E6E6FFE6E6E6FFE3E3E3FFE1E1E1FFE1E1E1FFE2E2E2FFE6E6
+            E6FFC9C9C9FF000000FF000000FF020202BA0000001E00000000000000010000
+            000200000002000000030000005D151515FF161616FF656565FFD6D1CDFFD4CF
+            CBFFD4CFCBFFD4CFCBFFD4CFCBFFBFBBB7FF393939FF202020FF1F1F1FFF4645
+            43FFD2CDC9FFD4CFCBFFE1E0DFFFE4E4E4FFE3CBB8FFE4CFBEFFE5E5E5FFE6E6
+            E6FFC3C3C3FF000000FF000000FF060606B50000001B00000000000000000000
+            0000000000000000000000000059171717FF171717FF676767FFE2E1DFFFE1DF
+            DDFFDFDDDCFFDFDDDCFFD9D7D6FF575655FF212121FF242424FF2B2B2BFFCDCB
+            CAFFDEDBD9FFDDDBD9FFE4E4E4FFDFD3C9FFDBB08DFFE3C4AAFFDECBBBFFE6E6
+            E6FFBCBCBCFF000000FF000000FF0A0A0AB10000001800000000000000000000
+            0000000000000000000000000057181818FF181818FF686868FFE7E7E7FFE8E8
+            E8FFE6E6E6FFE6E6E6FF848484FF1D1D1DFF252525FF202020FFB2B2B2FFE6E6
+            E6FFE6E6E6FFE6E6E6FFE6E6E6FFE2E1E0FFE5DCD5FFECECECFFDFCEC1FFE1D2
+            C7FFB6B6B6FF000000FF000000FF0D0D0DAC0000001600000000000000000000
+            0000000000000000000000000054191919FF1A1A1AFF696969FFE7E7E7FFE8E8
+            E8FFE7E7E7FFABABABFF2D2D2DFF232323FF272727FF828282FFE6E6E6FFE6E6
+            E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE4DF
+            DBFFAEABA8FF000000FF000000FF101010A60000001400000000000000000000
+            00000000000000000000000000511A1A1AFF1C1C1CFF696969FFE6E6E6FFE8E8
+            E8FFCBCBCBFF3D3D3DFF212121FF2E2E2EFF565656FFE4E4E4FFE6E6E6FFE6E6
+            E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6
+            E6FFA9A9A9FF000000FF000000FF131313A00000001200000000000000000000
+            000000000000000000000000004E1B1B1BFF1D1D1DFF696969FFE0DEDDFFDCDA
+            D9FF646464FF1D1D1DFF2E2E2EFF424241FFD2D0CFFFE1E0DFFFE2E0DFFFE2E1
+            E0FFE2E1E0FFE3E2E2FFE6E6E6FFE1E1E1FFE2E0DFFFE2E2E2FFE3E3E3FFE6E6
+            E6FFA3A3A3FF000000FF000000FF1616169A0000001100000000000000000000
+            000000000000000000000000004B1C1C1CFF1F1F1FFF656463FFD3CECAFF6B69
+            68FF242424FF2A2A2AFF434343FFAEAAA7FFD4CFCBFFD4CFCBFFD4CFCBFFD4CF
+            CBFFD4CFCBFFD4CFCBFFE4E4E4FFE6E2DFFFDAAF8EFFEADDD3FFE1E1E1FFE6E6
+            E6FF9C9C9CFF000000FF000000FF191919940000000F00000000000000000000
+            00000000000000000000000000471D1D1DFF202020FF6B6B6BFF9A9A99FF2A2A
+            2AFF232323FF4C4C4CFF9D9C9CFFE3E2E2FFE2E1E0FFE2E1E0FFE2E0DFFFE1E0
+            DFFFE1E0DFFFE2E1E0FFE6E6E6FFD9BAA2FFE7CCB7FFE2C0A5FFE0D4CAFFE6E6
+            E6FF969696FF000000FF000000FF1B1B1B8E0000000E00000000000000000000
+            00000000000000000000000000441E1E1EFF222222FF4C4C4CFF191919FF2121
+            21FF494949FF818181FFE8E8E8FFE8E8E8FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6
+            E6FFE6E6E6FFE6E6E6FFE6E6E6FFE1DCD9FFE8E7E6FFE9E8E8FFDDCBBCFFE3DA
+            D3FF8F8F8FFF000000FF000000FF1D1D1D880000000C00000000000000000000
+            00000000000000000000000000411F1F1FFF222222FF0D0D0DFF1C1C1CFF3939
+            39FF787878FFDADADAFFE7E7E7FFE8E8E8FFE8E8E8FFE6E6E6FFE6E6E6FFE6E6
+            E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE4DF
+            DBFF898887FF000000FF000000FF202020820000000B00000000000000000000
+            000000000000000000000000003E202020FF0F0F0FFF141414FF2C2C2CFF6F6F
+            6FFFC4C4C4FFE4E4E4FFE6E6E6FFE7E7E7FFE8E8E8FFE7E7E7FFE6E6E6FFE6E6
+            E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6
+            E6FF838383FF000000FF000000FF2020207B0000000900000000000000000000
+            000000000000000000000000003C121212FE0B0B0BFF242424FF626262FFA19F
+            9DFFD9D6D4FFDAD8D6FFDCD9D7FFDDDBD9FFDFDCDAFFE0DDDCFFDFDDDBFFDEDC
+            DAFFDFDDDBFFE1E0DEFFE3E3E3FFE3E3E3FFE1DDD9FFE1E1E1FFE6E6E6FFE6E6
+            E6FF7C7C7CFF000000FF010101FF212121750000000800000000000000000000
+            0000000000000000000000000055040404FE212121FF4A4A4AFF82817FFFCFCA
+            C4FFD0CBC6FFD1CCC8FFD2CDC9FFD2CDC9FFD3CECAFFD4CFCAFFD5D0CBFFD4CF
+            CAFFD3CEC9FFD6D2CEFFE1E1E1FFE5CFBEFFD8AB87FFE6DFD9FFE5E5E5FFE4E4
+            E4FF767676FF000000FF050505FF1F1F1F6E0000000700000000000000000000
+            0000000000000000000C000000D91C1C1CFE333333FF6C6C6CFFD2D2D2FFDDDD
+            DDFFDEDEDEFFDFDFDFFFE1E1E1FFE2E2E2FFE3E3E3FFE3E3E3FFE4E4E4FFE4E4
+            E4FFE2E2E2FFE2E2E2FFDFDDDCFFDAB18FFFF2E6DCFFDDBCA1FFE1DBD6FFE2E2
+            E2FF6F6F6FFF000000FF0A0A0AFE1A1A1A680000000600000000000000000000
+            000000000000000000A4131313FD272727FF4B4B4BFF6F6F6FFFDCDCDCFFDDDD
+            DDFFDBDBDBFFD9D9D8FFDADADAFFDBDBDBFFDDDDDDFFDEDEDEFFDFDFDFFFE0E0
+            E0FFE1E1E1FFE0E0E0FFDEDEDEFFDFDDDCFFE2E2E2FFE0DFDEFFDCC9BAFFDFDB
+            D7FF686868FF000000FF111111FC141414620000000500000000000000000000
+            000084848470292929FE232323FF3A3A3AFF2C2C2CFF707070FFDBDBDBFFDCDC
+            DCFFD7D6D6FFD7D2CEFFD7D2CDFFD7D2CDFFD7D1CDFFD7D1CDFFD6D1CDFFD6D1
+            CDFFD6D1CDFFD6D1CCFFD6D0CCFFD6D0CCFFD7D3D0FFDFDFDFFFDEDEDEFFDDDA
+            D7FF626262FF000000FF303030F80A0A0A520000000200000000000000001111
+            11305D5D5DF8C9C9C9FF666666FE1B1B1BE22C2C2CFE515151FF8B8B8BFF8D8D
+            8DFF9C9C9CFFE8E8E8FFE8E8E8FFE8E8E8FFE8E8E8FFE9E9E9FFE9E9E9FFE9E9
+            E9FFE9E9E9FFE9E9E9FFE9E9E9FFE9E9E9FFDADADAFFA7A7A7FFAAAAAAFFACAC
+            ACFF484848FF010101FF5E5E5ED40202022A0000000000000000000000000303
+            03D3141414FE515151FEA7A7A7DE1919192E0808089F2E2E2EF7474747FF4B4B
+            4BFF626262FFD4D4D4FFD4D4D4FFD4D4D4FFD4D4D4FFD4D4D4FFD5D5D5FFD4D4
+            D4FFD4D4D4FFD3D3D3FFD2D2D2FFD2D2D2FFA9A9A9FF010101FF000000FF0000
+            00FF070707FF5F5F5FE82222225B070707070000000000000000000000001111
+            11731F1F1FFE151515F3303030290000000000000015000000420707076E0E0E
+            0E791D1D1D914F4F4FB2535353B8A8A8A8FDADADADFFAEAEAEFFAFAFAFFFB1B1
+            B1FFB2B2B2FFB4B4B4FFA1A1A1F0646464BC5E5E5EBC3E3E3EB43D3D3DB23F3F
+            3FB13D3D3D8E0F0F0F3D0B0B0B0A000000000000000000000000000000000000
+            0000373737332121213C00000000000000000000000000000000000000040000
+            0006020202080505050D32323266D5D5D5FFD7D7D7FFD7D7D7FFD7D7D7FFD8D8
+            D8FFD8D8D8FFD8D8D8FFD0D0D0F70D0D0D300101011401010110010101110101
+            01100303030A0000000000000000000000000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000000000000000
+            00000000000000000000212121363E3E3E594040405941414158424242584444
+            44584545455846464658454545582222221C0000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000
+          }
+          OnClick = SpeedButton2Click
+          ShowHint = True
+          ParentShowHint = False
+        end
+        object SpeedButton1: TSpeedButton
+          Left = 49
+          Height = 48
+          Hint = 'Kapat'
+          Top = 1
+          Width = 48
+          Align = alLeft
+          Flat = True
+          Glyph.Data = {
+            36100000424D3610000000000000360000002800000020000000200000000100
+            20000000000000100000640000006400000000000000000000000D0D0D002626
+            2600262626002626260026262600262626002626260026262600262626002626
+            2600262626002626260026262600262626002626260026262600262626002222
+            51002F2FA42F3939CA863A3ACEBE3A3AD1DB3A3AD1DD3A3ACFC53939CB923333
+            B3401D1D670004040E0000000000000000000000000000000000B7B7B72ED0D0
+            D0B6D0D0D0BFD0D0D0BFD0D0D0BFD0D0D0BFD0D0D0BFD0D0D0BFD0D0D0BFD0D0
+            D0BFD0D0D0BFD0D0D0BFD0D0D0BFD0D0D0BFD0D0D0BFD0D0D0BFBABACEBF5353
+            D0CB3C3CD7FE3C3CDAFF3C3CDAFF3C3CDAFF3C3CDAFF3C3CDAFF3C3CDAFF3C3C
+            D8FF3B3BD1CC3636BB3712124000000000000000000000000000D7D7D7A1E1E1
+            E1FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFB4B4DCFF4646D8FF3D3D
+            DBFF3D3DDBFF3D3DDBFF3D3DDBFF3D3DDBFF3D3DDBFF3D3DDBFF3D3DDBFF3D3D
+            DBFF3D3DDBFF3D3DD8FA3C3CCD68181853000000000000000000E1E1E1A7E2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFBBBBDDFF4343DAFF3F3FDDFF3F3F
+            DDFF3F3FDDFF3F3FDDFF3F3FDDFF3F3FDDFF3F3FDDFF3F3FDDFF3F3FDDFF3F3F
+            DDFF3F3FDDFF3F3FDDFF3F3FDBFE3D3DCE611111390000000000E2E2E2A7E2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFD8D8E0FF5151DBFF4040DEFF4040DEFF6C6C
+            DFFFC2C2E9FF6E6EDFFF4040DEFF4040DEFF4040DEFF4040DEFF6767DEFFC2C2
+            E9FF7373DFFF4040DEFF4040DEFF4040DBF63838B92702020700E2E2E2A7E2E2
+            E2FFE2E2E2FFE2E2E2FFB8B8B8FF979797FF979797FF979797FF979797FF9797
+            97FF979797FF979797FF979797FF6C6CBAFF4141DFFF4141DFFF6565E1FFF1F1
+            F6FFFAFAFAFFF1F1F6FF7070E0FF4141DFFF4141DFFF6969DFFFEEEEF5FFFAFA
+            FAFFF4F4F7FF6D6DE1FF4141DFFF4141DFFF4040D8AF1A1A5600E2E2E2A7E2E2
+            E2FFE2E2E2FFE2E2E2FFDDDDDDFFD6D6D6FFD6D6D6FFD6D6D6FFD6D6D6FFD6D6
+            D6FFD6D6D6FFD6D6D6FFD4D4D6FF4D4DDCFF4343E0FF4343E0FF8A8AEAFFFAFA
+            FAFFFAFAFAFFFAFAFAFFF1F1F6FF7171E1FF6A6AE0FFEEEEF5FFFAFAFAFFFAFA
+            FAFFFAFAFAFF9494EBFF4343E0FF4343E0FF4343DFFD3333A41DE2E2E2A7E2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2
+            E2FFE2E2E2FFE2E2E2FFBEBEE0FF4444E2FF4444E2FF4444E2FF4646E2FFB8B8
+            F1FFFAFAFAFFFAFAFAFFFAFAFAFFF1F1F6FFEEEEF5FFFAFAFAFFFAFAFAFFFAFA
+            FAFFC1C1F2FF4848E2FF4444E2FF4444E2FF4444E2FF4242D565E2E2E2A7E2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2
+            E2FFE2E2E2FFE2E2E2FFA3A3E1FF4545E3FF4545E3FF4545E3FF4545E3FF4747
+            E3FFB8B8F1FFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFC1C1
+            F3FF4949E3FF4545E3FF4545E3FF4545E3FF4545E3FF4444DE92E2E2E2A7E2E2
+            E2FFE2E2E2FFE2E2E2FFD6D6D6FFC9C9C9FFC9C9C9FFC9C9C9FFC9C9C9FFC9C9
+            C9FFC9C9C9FFC9C9C9FF8C8CD5FF4747E4FF4747E4FF4747E4FF4747E4FF4747
+            E4FF4949E4FFC5C5F1FFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFCECEF3FF4B4B
+            E5FF4747E4FF4747E4FF4747E4FF4747E4FF4747E4FF4646E2A5E2E2E2A7E2E2
+            E2FFE2E2E2FFE2E2E2FFBFBFBFFFA4A4A4FFA4A4A4FFA4A4A4FFA4A4A4FFA4A4
+            A4FFA4A4A4FFA4A4A4FF7C7CC1FF4848E5FF4848E5FF4848E5FF4848E5FF4848
+            E5FF6E6EE4FFEEEEF5FFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFF1F1F6FF7575
+            E4FF4848E5FF4848E5FF4848E5FF4848E5FF4848E5FF4848E59CE3E3E3A7E3E3
+            E3FFE3E3E3FFE3E3E3FFE3E3E3FFE3E3E3FFE3E3E3FFE3E3E3FFE3E3E3FFE3E3
+            E3FFE3E3E3FFE3E3E3FFB5B5E4FF4949E7FF4949E7FF4949E7FF4949E7FF6F6F
+            E5FFEEEEF5FFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFF2F2
+            F6FF7676E5FF4949E7FF4949E7FF4949E7FF4949E7FF4949E679E4E4E4A7E4E4
+            E4FFE4E4E4FFE4E4E4FFE4E4E4FFE4E4E4FFE4E4E4FFE4E4E4FFE4E4E4FFE4E4
+            E4FFE4E4E4FFE4E4E4FFD9D9E4FF4D4DE8FF4B4BE8FF4B4BE8FF6969E7FFEEEE
+            F6FFFAFAFAFFFAFAFAFFFAFAFAFFC3C3F4FFBABAF3FFFAFAFAFFFAFAFAFFFAFA
+            FAFFF2F2F6FF6F6FE7FF4B4BE8FF4B4BE8FF4B4BE8FF4242CF39E4E4E4A7E5E5
+            E5FFE5E5E5FFE5E5E5FFE5E5E5FFE5E5E5FFE5E5E5FFE5E5E5FFE5E5E5FFE5E5
+            E5FFE5E5E5FFE5E5E5FFE5E5E5FF7D7DE8FF4C4CE9FF4C4CE9FF9292EFFFFAFA
+            FAFFFAFAFAFFFAFAFAFFC4C4F5FF5050EAFF4E4EE9FFBBBBF4FFFAFAFAFFFAFA
+            FAFFFAFAFAFF9C9CF0FF4C4CE9FF4C4CE9FF4C4CE9D82C2C8901E5E5E5A7E6E6
+            E6FFE6E6E6FFE6E6E6FFC5C5C5FFABABABFFABABABFFABABABFFABABABFFABAB
+            ABFFABABABFFABABABFFABABABFF9595B2FF4E4EE9FF4D4DEBFF5151EBFFC2C2
+            F5FFFAFAFAFFC4C4F5FF5151EBFF4D4DEBFF4D4DEBFF4F4FEBFFBBBBF4FFFAFA
+            FAFFCACAF5FF5353EBFF4D4DEBFF4D4DEBFF4C4CE8580C0C2600E6E6E6A7E6E6
+            E6FFE6E6E6FFE6E6E6FFD6D6D6FFC6C6C6FFC6C6C6FFC6C6C6FFC6C6C6FFC6C6
+            C6FFC6C6C6FFC6C6C6FFC6C6C6FFC6C6C6FF9393E1FF4F4FECFF4F4FECFF5151
+            ECFF7171EFFF5151ECFF4F4FECFF4F4FECFF4F4FECFF4F4FECFF5050ECFF7171
+            EFFF5252ECFF4F4FECFF4F4FECFF4F4FECAB2C2C870000000000E7E7E7A7E7E7
+            E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7
+            E7FFE7E7E7FFE7E7E7FFE7E7E7FFE7E7E7FFE6E6E7FF8C8CEBFF5050EDFF5050
+            EDFF5050EDFF5050EDFF5050EDFF5050EDFF5050EDFF5050EDFF5050EDFF5050
+            EDFF5050EDFF5050EDFF5050EDBD3D3DB70A0202070000000000E8E8E8A7E8E8
+            E8FFE8E8E8FFE8E8E8FFE8E8E8FFE8E8E8FFE8E8E8FFE8E8E8FFE8E8E8FFE8E8
+            E8FFE8E8E8FFE8E8E8FFE8E8E8FFE8E8E8FFE8E8E8FFE7E7E8FFA6A6EBFF5757
+            EEFF5151EEFF5151EEFF5151EEFF5151EEFF5151EEFF5151EEFF5151EEFF5151
+            EEFF5151EEFC5151EE8F3B3BAD0604040D000000000000000000E8E8E8A7E9E9
+            E9FFE9E9E9FFE9E9E9FFE6E6E6FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2
+            E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFE2E2E2FFD1D1
+            E2FF9090E5FF5F5FEAFF5353F0FF5353F0FF5353F0FF5353F0FF5E5EEFFF5C5C
+            EFA14B4BDB2C2222640000000100000000000000000000000000E9E9E9A7E9E9
+            E9FFE9E9E9FFE9E9E9FFB9B9B9FF929292FF929292FF929292FF929292FF9292
+            92FF929292FF929292FF929292FF929292FF929292FF929292FF929292FF9292
+            92FF929292FF929292FF8C8C9DFFBABADDFFC7C7EBFFD5D5EAFFE8E8E9FF9191
+            A513020206000000000000000000000000000000000000000000EAEAEAA7EAEA
+            EAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEA
+            EAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEA
+            EAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFFEAEAEAFF9292
+            9213000000000000000000000000000000000000000000000000EBEBEBA7EBEB
+            EBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEB
+            EBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEB
+            EBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFFEBEBEBFF9292
+            9213000000000000000000000000000000000000000000000000EBEBEBA7ECEC
+            ECFFECECECFFECECECFFECECECFFECECECFFECECECFFECECECFFECECECFFECEC
+            ECFFECECECFFECECECFFECECECFFECECECFFECECECFFECECECFFECECECFFECEC
+            ECFFECECECFFECECECFFECECECFFECECECFFECECECFFECECECFFECECECFF9393
+            9313000000000000000000000000000000000000000000000000ECECECA7EDED
+            EDFFEDEDEDFFEDEDEDFFD6D6D6FFC1C1C1FFC1C1C1FFC1C1C1FFC1C1C1FFC1C1
+            C1FFC1C1C1FFC1C1C1FFC1C1C1FFC1C1C1FFC1C1C1FFC1C1C1FFE0E0E0FFEDED
+            EDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFF9393
+            9313000000000000000000000000000000000000000000000000EDEDEDA7EDED
+            EDFFEDEDEDFFEDEDEDFFCFCFCFFFB6B6B6FFB6B6B6FFB6B6B6FFB6B6B6FFB6B6
+            B6FFB6B6B6FFB6B6B6FFB6B6B6FFB6B6B6FFB6B6B6FFB6B6B6FFDCDCDCFFEDED
+            EDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFFEDEDEDFF9494
+            9413000000000000000000000000000000000000000000000000EEEEEEA7EEEE
+            EEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEE
+            EEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEEEEFFEEEE
+            EEFFEEEEEEFFEBEBEBFFE2DFD9FFE2E0DBFFE4E3E0FFE5E5E5FFE7E7E7FF9392
+            9113000000000000000000000000000000000000000000000000EFEFEFA7EFEF
+            EFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEF
+            EFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEF
+            EFFFEFEFEFFFD4BD8DFFC79C43FFC3983FFFBE933BFFBA8F38FFB891408E655D
+            4B00000000000000000000000000000000000000000000000000EFEFEFA7F0F0
+            F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0
+            F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0
+            F0FFF0F0F0FFD5B065FFCDA044FFC99C40FFC5983CFFC194388E70561F000000
+            0000000000000000000000000000000000000000000000000000F0F0F0A7F0F0
+            F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0
+            F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0F0FFF0F0
+            F0FFF0F0F0FFD6B165FFCDA044FFC99C40FFC5983C9073582200000000000000
+            0000000000000000000000000000000000000000000000000000F1F1F1A7F1F1
+            F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1
+            F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1F1FFF1F1
+            F1FFF1F1F1FFD6B165FFCDA044FFC99C4090755A240000000000000000000000
+            0000000000000000000000000000000000000000000000000000F2F2F2A3F2F2
+            F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2
+            F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2
+            F2FFF2F2F2FFD7B165FFCDA04490775D27000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000E3E3E337F3F3
+            F3C5F3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3
+            F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3F3CFF3F3
+            F3CFF2F2F1CFD8B56D897A5F2900000000000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000
+          }
+          OnClick = SpeedButton1Click
+          ShowHint = True
+          ParentShowHint = False
+        end
+      end
+      object ATTabs1: TATTabs
+        Left = 0
+        Height = 32
+        Top = 0
+        Width = 1134
+        Align = alTop
+        ParentColor = False
+        Tabs = <        
+          item
+            TabCaption = 'Hemogram'
+            TabColor = clSkyBlue
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end        
+          item
+            TabCaption = 'Biyokimya'
+            TabColor = clBtnHighlight
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end        
+          item
+            TabCaption = 'Hormon'
+            TabColor = clYellow
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end        
+          item
+            TabCaption = 'Elisa'
+            TabColor = clHighlight
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end        
+          item
+            TabCaption = 'HbA1c'
+            TabColor = clGreen
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end        
+          item
+            TabCaption = 'Sedimantasyon'
+            TabColor = clPurple
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end        
+          item
+            TabCaption = 'VDRL'
+            TabColor = clOlive
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end        
+          item
+            TabCaption = 'İdrar'
+            TabColor = clAqua
+            TabFontStyle = [fsBold]
+            TabHideXButton = True
+          end>
+        OnClick = ATTabs1Click
+        DoubleBuffered = True
+        OptButtonLayout = '<>,v'
+        OptShowPlusTab = False
+        OptShowModifiedText = '*'
+        OptMouseDoubleClickClose = False
+        OptHintForX = 'Close tab'
+        OptHintForPlus = 'Add tab'
+        OptHintForArrowLeft = 'Scroll tabs left'
+        OptHintForArrowRight = 'Scroll tabs right'
+        OptHintForArrowMenu = 'Show tabs list'
+        OptHintForUser0 = '0'
+        OptHintForUser1 = '1'
+        OptHintForUser2 = '2'
+        OptHintForUser3 = '3'
+        OptHintForUser4 = '4'
+      end
+      object Panel1: TPanel
+        Left = 562
+        Height = 377
+        Top = 32
+        Width = 572
+        Align = alRight
+        ClientHeight = 377
+        ClientWidth = 572
+        TabOrder = 2
+        object Panel3: TPanel
+          Left = 1
+          Height = 191
+          Top = 1
+          Width = 570
+          Align = alTop
+          ClientHeight = 191
+          ClientWidth = 570
+          TabOrder = 0
+          object JvGradientHeaderPanel1: TJvGradientHeaderPanel
+            Left = 1
+            Height = 30
+            Top = 1
+            Width = 568
+            GradientStartColor = clMenuHighlight
+            GradientEndColor = clMenuBar
+            LabelTop = 4
+            LabelCaption = 'Ana Tanı'
+            LabelFont.Color = clWhite
+            LabelFont.Height = -16
+            LabelFont.Style = [fsBold]
+            LabelAlignment = taCenter
+            Align = alTop
+            TabOrder = 0
+          end
+          object JDBGridControl1: TJDBGridControl
+            Left = 1
+            Height = 159
+            Top = 31
+            Width = 568
+            Align = alClient
+            Color = clWindow
+            Columns = <            
+              item
+                ReadOnly = True
+                Title.Alignment = taCenter
+                Title.Color = clDefault
+                Title.Font.Color = clMenuHighlight
+                Title.Font.Style = [fsBold]
+                Title.Caption = ' ICD'
+                FieldName = 'AnaTani_Kod'
+                Decimals = 0
+                MaxLength = 0
+              end            
+              item
+                ReadOnly = True
+                Title.Color = clDefault
+                Title.Font.Color = clMenuHighlight
+                Title.Font.Style = [fsBold]
+                Title.Caption = '                                                                         Ana Tanı'
+                FieldName = 'Ana_Tani'
+                Decimals = 0
+                MaxLength = 0
+              end>
+            DataSource = DataSource1
+            HeaderHotZones = [gzFixedCols, gzFixedRows, gzFixedCells]
+            Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgDisableDelete, dgDisableInsert]
+            TabOrder = 1
+            TitleStyle = tsNative
+          end
+        end
+        object Splitter1: TSplitter
+          Cursor = crVSplit
+          Left = 1
+          Height = 5
+          Top = 192
+          Width = 570
+          Align = alTop
+          ResizeAnchor = akTop
+        end
+        object Panel4: TPanel
+          Left = 1
+          Height = 179
+          Top = 197
+          Width = 570
+          Align = alClient
+          ClientHeight = 179
+          ClientWidth = 570
+          TabOrder = 2
+          object JvGradientHeaderPanel2: TJvGradientHeaderPanel
+            Left = 1
+            Height = 30
+            Top = 1
+            Width = 568
+            GradientStartColor = clMenuHighlight
+            GradientEndColor = clMenuBar
+            LabelTop = 4
+            LabelCaption = 'Alt Tanı'
+            LabelFont.Color = clWhite
+            LabelFont.Height = -16
+            LabelFont.Style = [fsBold]
+            LabelAlignment = taCenter
+            Align = alTop
+            TabOrder = 0
+          end
+          object JDBGridControl2: TJDBGridControl
+            Left = 1
+            Height = 147
+            Top = 31
+            Width = 568
+            Align = alClient
+            Color = clWindow
+            Columns = <            
+              item
+                ReadOnly = True
+                Title.Alignment = taCenter
+                Title.Color = clDefault
+                Title.Font.Color = clMenuHighlight
+                Title.Font.Style = [fsBold]
+                Title.Caption = ' ICD'
+                FieldName = 'AltTani_Kod'
+                Decimals = 0
+                MaxLength = 0
+              end            
+              item
+                ReadOnly = True
+                Title.Color = clDefault
+                Title.Font.Color = clMenuHighlight
+                Title.Font.Style = [fsBold]
+                Title.Caption = '                                                                         Ana Tanı'
+                FieldName = 'AltTani_Data'
+                Decimals = 0
+                MaxLength = 0
+              end>
+            DataSource = DataSource2
+            TabOrder = 1
+            TitleStyle = tsNative
+          end
+        end
+      end
+      object Panel5: TPanel
+        Left = 0
+        Height = 377
+        Top = 32
+        Width = 562
+        Align = alClient
+        ClientHeight = 377
+        ClientWidth = 562
+        TabOrder = 3
+        object Panel6: TPanel
+          Left = 1
+          Height = 63
+          Top = 1
+          Width = 560
+          Align = alTop
+          ClientHeight = 63
+          ClientWidth = 560
+          Color = clGradientInactiveCaption
+          ParentColor = False
+          TabOrder = 0
+          object Label1: TLabel
+            Left = 16
+            Height = 15
+            Top = 24
+            Width = 71
+            Caption = 'Doğum Tarihi'
+            ParentColor = False
+          end
+          object RadioGroup1: TRadioGroup
+            Left = 240
+            Height = 48
+            Top = 8
+            Width = 138
+            AutoFill = True
+            Caption = 'Cinsiyet'
+            ChildSizing.LeftRightSpacing = 6
+            ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+            ChildSizing.EnlargeVertical = crsHomogenousChildResize
+            ChildSizing.ShrinkHorizontal = crsScaleChilds
+            ChildSizing.ShrinkVertical = crsScaleChilds
+            ChildSizing.Layout = cclLeftToRightThenTopToBottom
+            ChildSizing.ControlsPerLine = 2
+            ClientHeight = 28
+            ClientWidth = 134
+            Columns = 2
+            Items.Strings = (
+              'Erkek'
+              'Kadın'
+            )
+            TabOrder = 0
+          end
+          object DateTimePicker1: TDateTimePicker
+            Left = 104
+            Height = 23
+            Top = 16
+            Width = 79
+            CenturyFrom = 1941
+            MaxDate = 2958465
+            MinDate = -53780
+            TabOrder = 1
+            TrailingSeparator = False
+            TextForNullDate = 'NULL'
+            LeadingZeros = True
+            Kind = dtkDate
+            TimeFormat = tf24
+            TimeDisplay = tdHMS
+            DateMode = dmComboBox
+            Date = 43650
+            Time = 0.586934143517283
+            UseDefaultSeparators = True
+            HideDateTimeParts = []
+            MonthNames = 'Long'
+          end
+          object Label2: TLabel
+            Left = 451
+            Height = 15
+            Top = 23
+            Width = 34
+            Caption = 'Label2'
+            ParentColor = False
+          end
+        end
+        object PageControl1: TPageControl
+          Left = 1
+          Height = 312
+          Top = 64
+          Width = 560
+          ActivePage = TabSheet1
+          Align = alClient
+          ShowTabs = False
+          TabIndex = 0
+          TabOrder = 1
+          object TabSheet1: TTabSheet
+            Caption = 'TabSheet1'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel7: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel3: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'Hemogram'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -14
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider1: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 48
+                Width = 64
+                Alignment = taCenter
+                Caption = 'WBC'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider2: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 80
+                Width = 64
+                Alignment = taCenter
+                Caption = 'RBC'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider3: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 112
+                Width = 64
+                Alignment = taCenter
+                Caption = 'HGB'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider4: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 144
+                Width = 64
+                Alignment = taCenter
+                Caption = 'HCT'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider5: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 176
+                Width = 64
+                Alignment = taCenter
+                Caption = 'MCV'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider6: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 208
+                Width = 64
+                Alignment = taCenter
+                Caption = 'MCH'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider7: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 240
+                Width = 64
+                Alignment = taCenter
+                Caption = 'MCHC'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider8: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 272
+                Width = 64
+                Alignment = taCenter
+                Caption = 'RDW'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider9: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 304
+                Width = 64
+                Alignment = taCenter
+                Caption = 'PLT'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider10: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 336
+                Width = 64
+                Alignment = taCenter
+                Caption = 'MPV'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider11: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 368
+                Width = 64
+                Alignment = taCenter
+                Caption = 'PCT'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider12: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 48
+                Width = 64
+                Alignment = taCenter
+                Caption = 'PDW'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider13: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 80
+                Width = 64
+                Alignment = taCenter
+                Caption = 'LYM%'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider14: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 112
+                Width = 64
+                Alignment = taCenter
+                Caption = 'MONO%'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider15: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 144
+                Width = 64
+                Alignment = taCenter
+                Caption = 'NEU% '
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider16: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 176
+                Width = 64
+                Alignment = taCenter
+                Caption = 'LYM#'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider17: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 208
+                Width = 64
+                Alignment = taCenter
+                Caption = 'MONO#'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider18: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 240
+                Width = 64
+                Alignment = taCenter
+                Caption = 'NEU#'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider19: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 272
+                Width = 64
+                Alignment = taCenter
+                Caption = 'BASO%'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider20: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 304
+                Width = 64
+                Alignment = taCenter
+                Caption = 'EOS%'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider21: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 336
+                Width = 64
+                Alignment = taCenter
+                Caption = 'BASO#'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider22: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 584
+                Top = 368
+                Width = 64
+                Alignment = taCenter
+                Caption = 'EOS#'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup1: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 48
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 23
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup2: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 80
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                CheckedFontColor = clRed
+                Font.Color = clRed
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                ParentFont = False
+                TabOrder = 24
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup3: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 112
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 25
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup4: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 144
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 26
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup5: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 176
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 27
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup6: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 208
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 28
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup7: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 240
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 29
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup8: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 272
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 30
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup9: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 304
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 31
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup10: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 336
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 32
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup11: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 368
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 33
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup12: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 48
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 34
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup13: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 80
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 35
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup14: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 112
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 36
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup15: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 144
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 37
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup16: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 176
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 38
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup17: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 208
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 39
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup18: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 240
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 40
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup19: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 272
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 41
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup20: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 304
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 42
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup21: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 336
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 43
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup22: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 368
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 44
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+          object TabSheet2: TTabSheet
+            Caption = 'TabSheet2'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel8: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel4: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'Biyokimya'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -14
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider23: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 48
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Albümin'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider24: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 80
+                Width = 64
+                Alignment = taCenter
+                Caption = 'ALP'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider25: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 112
+                Width = 64
+                Alignment = taCenter
+                Caption = 'ALT'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider26: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 144
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Amilaz'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider27: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 176
+                Width = 64
+                Alignment = taCenter
+                Caption = 'ASO'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider28: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 208
+                Width = 64
+                Alignment = taCenter
+                Caption = 'AST'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider29: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 240
+                Width = 104
+                Alignment = taCenter
+                Caption = 'Bilirubin (Direkt)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider30: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 272
+                Width = 104
+                Alignment = taCenter
+                Caption = 'Bilirubin (Total)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider31: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 304
+                Width = 64
+                Alignment = taCenter
+                Caption = 'CRP'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider32: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 336
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Demir'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider33: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 368
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Fosfor (P)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider34: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 400
+                Width = 64
+                Alignment = taCenter
+                Caption = 'GGT'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider35: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 432
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Glukoz'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider36: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 464
+                Width = 64
+                Alignment = taCenter
+                Caption = 'HDL Kolesterol'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider37: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 496
+                Width = 64
+                Alignment = taCenter
+                Caption = 'HOMA-IR'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider38: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 80
+                Top = 528
+                Width = 64
+                Alignment = taCenter
+                Caption = 'CK-MB'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider39: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 568
+                Top = 48
+                Width = 88
+                Alignment = taCenter
+                Caption = 'Kalsiyum (Ca)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider40: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 80
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Klor (Cl)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider41: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 112
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Kolesterol'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider42: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 544
+                Top = 144
+                Width = 112
+                Alignment = taCenter
+                Caption = 'Kreatin kinaz (CK)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider43: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 176
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Kreatinin'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider44: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 208
+                Width = 64
+                Alignment = taCenter
+                Caption = 'LDH'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider45: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 560
+                Top = 240
+                Width = 96
+                Alignment = taCenter
+                Caption = 'LDL Kolesterol'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider46: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 576
+                Top = 272
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Magnezyum'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider47: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 304
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Potasyum'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider48: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 336
+                Width = 64
+                Alignment = taCenter
+                Caption = 'RF'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider49: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 568
+                Top = 368
+                Width = 88
+                Alignment = taCenter
+                Caption = 'Sodyum (Na)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider50: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 504
+                Top = 400
+                Width = 152
+                Alignment = taCenter
+                Caption = 'Demir bağlama kapasitesi'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider51: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 568
+                Top = 432
+                Width = 88
+                Alignment = taCenter
+                Caption = 'Total Protein'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider52: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 464
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Trigliserid'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider53: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 496
+                Width = 64
+                Alignment = taCenter
+                Caption = 'BUN'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider54: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 592
+                Top = 528
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Ürik asit'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup23: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 48
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 33
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup24: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 368
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 34
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup25: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 80
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                CheckedFontColor = clRed
+                Font.Color = clRed
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                ParentFont = False
+                TabOrder = 35
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup26: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 112
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 36
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup27: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 144
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 37
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup28: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 176
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 38
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup29: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 208
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 39
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup30: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 240
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 40
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup31: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 272
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 41
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup32: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 304
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 42
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup33: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 336
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 43
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup34: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 368
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 44
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup35: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 48
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 45
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup36: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 80
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 46
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup37: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 112
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 47
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup38: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 144
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 48
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup39: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 176
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 49
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup40: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 208
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 50
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup41: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 240
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 51
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup42: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 272
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 52
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup43: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 304
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 53
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup44: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 336
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 54
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup45: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 496
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 55
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup46: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 528
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 56
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup47: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 464
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 57
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup48: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 432
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 58
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup49: TECRadioGroup
+                Left = 176
+                Height = 19
+                Top = 400
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 59
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup50: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 496
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 60
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup51: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 528
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 61
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup52: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 464
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 62
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup53: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 432
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 63
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup54: TECRadioGroup
+                Left = 680
+                Height = 19
+                Top = 400
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 64
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+          object TabSheet3: TTabSheet
+            Caption = 'TabSheet3'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel9: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel5: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'Hormon'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -16
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider55: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 48
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Anti-TPO'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider56: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 80
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Ferritin'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider57: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 112
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Folat'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider58: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 144
+                Width = 64
+                Alignment = taCenter
+                Caption = 'hGFH'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider59: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 176
+                Width = 64
+                Alignment = taCenter
+                Caption = 'İnsülin'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider60: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 208
+                Width = 64
+                Alignment = taCenter
+                Caption = 'PSA (Total)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider61: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 240
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Serbest T3'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider62: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 272
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Serbest T4'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider63: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 304
+                Width = 96
+                Alignment = taCenter
+                Caption = 'Total Beta-hCG'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider64: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 336
+                Width = 64
+                Alignment = taCenter
+                Caption = 'TSH'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider65: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 368
+                Width = 96
+                Alignment = taCenter
+                Caption = 'Vitamin B12'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider66: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 400
+                Width = 96
+                Alignment = taCenter
+                Caption = 'Vitamin D'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup77: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 48
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 13
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup78: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 80
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 14
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup79: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 112
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 15
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup80: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 144
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 16
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup81: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 176
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 17
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup82: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 208
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 18
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup83: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 240
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 19
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup84: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 272
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 20
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup85: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 304
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 21
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup86: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 336
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 22
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup87: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 368
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 23
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup88: TECRadioGroup
+                Left = 184
+                Height = 19
+                Top = 400
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 24
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+          object TabSheet4: TTabSheet
+            Caption = 'TabSheet4'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel10: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel6: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'Elisa'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -16
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider67: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 48
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Anti HBs'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider68: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 80
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Anti HCV'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider69: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 112
+                Width = 64
+                Alignment = taCenter
+                Caption = 'Anti HIV'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider70: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 144
+                Width = 64
+                Alignment = taCenter
+                Caption = 'HBsAg'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup73: TECRadioGroup
+                Left = 136
+                Height = 19
+                Top = 48
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 5
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup74: TECRadioGroup
+                Left = 136
+                Height = 19
+                Top = 80
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 6
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup75: TECRadioGroup
+                Left = 136
+                Height = 19
+                Top = 112
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 7
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup76: TECRadioGroup
+                Left = 136
+                Height = 19
+                Top = 144
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 8
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+          object TabSheet5: TTabSheet
+            Caption = 'TabSheet5'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel11: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel7: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'HbA1c'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -16
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider71: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 56
+                Width = 80
+                Alignment = taCenter
+                Caption = 'HbA1c'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider72: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 88
+                Width = 80
+                Alignment = taCenter
+                Caption = 'HbA1c (IFCC)'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup71: TECRadioGroup
+                Left = 160
+                Height = 19
+                Top = 56
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 3
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup72: TECRadioGroup
+                Left = 160
+                Height = 19
+                Top = 88
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 4
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+          object TabSheet6: TTabSheet
+            Caption = 'TabSheet6'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel12: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel8: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'Sedimantasyon'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -16
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider73: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 40
+                Top = 64
+                Width = 104
+                Alignment = taCenter
+                Caption = 'Sedimantasyon'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup70: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 64
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 2
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+          object TabSheet7: TTabSheet
+            Caption = 'TabSheet7'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel13: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel9: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'VDRL'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -16
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider74: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 56
+                Width = 80
+                Alignment = taCenter
+                Caption = 'VDRL-RPR'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup89: TECRadioGroup
+                Left = 152
+                Height = 19
+                Top = 56
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 2
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+          object TabSheet8: TTabSheet
+            Caption = 'TabSheet8'
+            ClientHeight = 304
+            ClientWidth = 552
+            object Panel14: TPanel
+              Left = 0
+              Height = 304
+              Top = 0
+              Width = 552
+              Align = alClient
+              ClientHeight = 304
+              ClientWidth = 552
+              Color = clSkyBlue
+              ParentColor = False
+              TabOrder = 0
+              object JvGradientHeaderPanel10: TJvGradientHeaderPanel
+                Left = 1
+                Height = 30
+                Top = 1
+                Width = 550
+                GradientStartColor = clMenuHighlight
+                GradientEndColor = clMenuBar
+                LabelTop = 4
+                LabelCaption = 'İdrar Tahlili'
+                LabelFont.Color = clWhite
+                LabelFont.Height = -16
+                LabelFont.Style = [fsBold]
+                LabelAlignment = taCenter
+                Align = alTop
+                TabOrder = 0
+              end
+              object JvNavPanelDivider75: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 56
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Yassı Epitel'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider76: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 88
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Ürobilinojen'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider77: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 120
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Renk'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider78: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 152
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Protein'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider79: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 184
+                Width = 80
+                Alignment = taCenter
+                Caption = 'pH'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider80: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 216
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Nitrit'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider81: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 32
+                Top = 248
+                Width = 96
+                Alignment = taCenter
+                Caption = 'Lökosit Esteraz'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider82: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 280
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Lökosit'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider83: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 312
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Keton'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider84: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 344
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Hemoglobin'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider85: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 376
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Glukoz'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider86: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 408
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Dansite'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider87: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 440
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Bulanıklık'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider88: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 48
+                Top = 472
+                Width = 80
+                Alignment = taCenter
+                Caption = 'Bilirubin'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object JvNavPanelDivider89: TJvNavPanelDivider
+                Cursor = crDefault
+                Left = 32
+                Top = 504
+                Width = 96
+                Alignment = taCenter
+                Caption = 'Askorbik Asit'
+                Enabled = False
+                Font.Color = clHotLight
+                Font.Style = [fsBold]
+              end
+              object ECRadioGroup55: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 56
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 16
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup56: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 408
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 17
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup57: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 88
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                CheckedFontColor = clRed
+                Font.Color = clRed
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                ParentFont = False
+                TabOrder = 18
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup58: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 120
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 19
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup59: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 152
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 20
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup60: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 184
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 21
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup61: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 216
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 22
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup62: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 248
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 23
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup63: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 280
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 24
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup64: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 312
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 25
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup65: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 344
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 26
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup66: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 376
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 27
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup67: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 440
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 28
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup68: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 472
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 29
+                UncheckedFontColor = clSkyBlue
+              end
+              object ECRadioGroup69: TECRadioGroup
+                Left = 168
+                Height = 19
+                Top = 504
+                Width = 150
+                BevelOuter = bvNone
+                BevelWidth = 0
+                BlockColor = clSkyBlue
+                ItemIndex = 1
+                Items = <                
+                  item
+                    Caption = 'Düşük'
+                  end                
+                  item
+                    Caption = 'Normal'
+                    Checked = True
+                  end                
+                  item
+                    Caption = 'Yüksek'
+                  end>
+                TabOrder = 30
+                UncheckedFontColor = clSkyBlue
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object SpkToolbar1: TSpkToolbar
+    Left = 0
+    Height = 112
+    Top = 0
+    Width = 1134
+    Appearance.Tab.TabHeaderFont.Color = 9126421
+    Appearance.Tab.BorderColor = 14922381
+    Appearance.Tab.GradientFromColor = 16115934
+    Appearance.Tab.GradientToColor = 15587527
+    Appearance.Tab.GradientType = bkConcave
+    Appearance.Tab.InactiveTabHeaderFontColor = 9126421
+    Appearance.Pane.BorderDarkColor = 14335646
+    Appearance.Pane.BorderLightColor = 16315117
+    Appearance.Pane.CaptionBgColor = 15849922
+    Appearance.Pane.CaptionFont.Color = 9126421
+    Appearance.Pane.GradientFromColor = 16115934
+    Appearance.Pane.GradientToColor = 15587527
+    Appearance.Pane.GradientType = bkConcave
+    Appearance.Element.IdleFrameColor = 14727067
+    Appearance.Element.IdleGradientFromColor = 15653832
+    Appearance.Element.IdleGradientToColor = 15323324
+    Appearance.Element.IdleGradientType = bkConcave
+    Appearance.Element.IdleInnerLightColor = 15852501
+    Appearance.Element.IdleInnerDarkColor = 15520702
+    Appearance.Element.IdleCaptionColor = 11631958
+    Appearance.Element.HotTrackFrameColor = 10211293
+    Appearance.Element.HotTrackGradientFromColor = 14351615
+    Appearance.Element.HotTrackGradientToColor = 5101567
+    Appearance.Element.HotTrackGradientType = bkConcave
+    Appearance.Element.HotTrackInnerLightColor = 12972543
+    Appearance.Element.HotTrackInnerDarkColor = 8045272
+    Appearance.Element.HotTrackCaptionColor = 8864367
+    Appearance.Element.HotTrackBrightnessChange = 40
+    Appearance.Element.ActiveFrameColor = 5535371
+    Appearance.Element.ActiveGradientFromColor = 7126014
+    Appearance.Element.ActiveGradientToColor = 4035324
+    Appearance.Element.ActiveGradientType = bkConcave
+    Appearance.Element.ActiveInnerLightColor = 961020
+    Appearance.Element.ActiveInnerDarkColor = 961020
+    Appearance.Element.ActiveCaptionColor = 8405614
+    Appearance.Element.Style = esRounded
+    TabIndex = 0
+    Images = ImageList1
+    LargeImages = ImageList1
+    ImagesWidth = 64
+    LargeImagesWidth = 64
+    Tabs = (
+      'SpkTab1'
+    )
+    object SpkTab1: TSpkTab
+      CustomAppearance.Tab.TabHeaderFont.Color = 9126421
+      CustomAppearance.Tab.BorderColor = 14922381
+      CustomAppearance.Tab.GradientFromColor = 16115934
+      CustomAppearance.Tab.GradientToColor = 15587527
+      CustomAppearance.Tab.GradientType = bkConcave
+      CustomAppearance.Tab.InactiveTabHeaderFontColor = 9126421
+      CustomAppearance.Pane.BorderDarkColor = 14335646
+      CustomAppearance.Pane.BorderLightColor = 16315117
+      CustomAppearance.Pane.CaptionBgColor = 15849922
+      CustomAppearance.Pane.CaptionFont.Color = 9126421
+      CustomAppearance.Pane.GradientFromColor = 16115934
+      CustomAppearance.Pane.GradientToColor = 15587527
+      CustomAppearance.Pane.GradientType = bkConcave
+      CustomAppearance.Element.IdleFrameColor = 14727067
+      CustomAppearance.Element.IdleGradientFromColor = 15653832
+      CustomAppearance.Element.IdleGradientToColor = 15323324
+      CustomAppearance.Element.IdleGradientType = bkConcave
+      CustomAppearance.Element.IdleInnerLightColor = 15852501
+      CustomAppearance.Element.IdleInnerDarkColor = 15520702
+      CustomAppearance.Element.IdleCaptionColor = 11631958
+      CustomAppearance.Element.HotTrackFrameColor = 10211293
+      CustomAppearance.Element.HotTrackGradientFromColor = 14351615
+      CustomAppearance.Element.HotTrackGradientToColor = 5101567
+      CustomAppearance.Element.HotTrackGradientType = bkConcave
+      CustomAppearance.Element.HotTrackInnerLightColor = 12972543
+      CustomAppearance.Element.HotTrackInnerDarkColor = 8045272
+      CustomAppearance.Element.HotTrackCaptionColor = 8864367
+      CustomAppearance.Element.HotTrackBrightnessChange = 40
+      CustomAppearance.Element.ActiveFrameColor = 5535371
+      CustomAppearance.Element.ActiveGradientFromColor = 7126014
+      CustomAppearance.Element.ActiveGradientToColor = 4035324
+      CustomAppearance.Element.ActiveGradientType = bkConcave
+      CustomAppearance.Element.ActiveInnerLightColor = 961020
+      CustomAppearance.Element.ActiveInnerDarkColor = 961020
+      CustomAppearance.Element.ActiveCaptionColor = 8405614
+      CustomAppearance.Element.Style = esRounded
+      Caption = 'Laboratuvar'
+      Panes = (
+        'SpkPane1'
+      )
+      object SpkPane1: TSpkPane
+        Caption = 'Seviye'
+        Items = (
+          'SpkLargeButton1'
+        )
+        object SpkLargeButton1: TSpkLargeButton
+          Caption = 'Yeni'
+          OnClick = SpkLargeButton1Click
+          LargeImageIndex = 0
+        end
+      end
+    end
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Connected = True
+    Port = 0
+    Database = 'D:\Laboratuvar\Vt\Laboratuvar.db'
+    Protocol = 'sqlite-3'
+    LibraryLocation = 'D:\Laboratuvar\Vt\sqlite3.dll'
+    left = 1056
+    top = 544
+  end
+  object DataSource1: TDataSource
+    DataSet = ZReadOnlyQuery1
+    left = 1128
+    top = 496
+  end
+  object ZReadOnlyQuery1: TZReadOnlyQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'Select * from AnaTani'
+    )
+    Params = <>
+    left = 1224
+    top = 496
+  end
+  object ZReadOnlyQuery2: TZReadOnlyQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'select AnaTani_Link,AltTani_kod,AltTani_Data from AltTani,AnaTani where AnaTani.AnaTani_ID=AltTani.AnaTani_Link'
+    )
+    Params = <>
+    MasterFields = 'AnaTani_ID'
+    MasterSource = DataSource1
+    LinkedFields = 'AnaTani_Link'
+    left = 1232
+    top = 576
+  end
+  object DataSource2: TDataSource
+    DataSet = ZReadOnlyQuery2
+    left = 1152
+    top = 576
+  end
+  object ImageList1: TImageList
+    Height = 64
+    Width = 64
+    left = 384
+    top = 272
+    Bitmap = {
+      4C69010000004000000040000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000F2F0DEC0F0EFDBECEDEBD32D000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000EEEC
+      D605F2F1E0FBF0EEDAFFEEECD531000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000EEEC
+      D62EF1EFDCFFF0EFDBFBEFEDD709000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000EEED
+      D657EEECD6FFF0EEDAD900000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000F0EF
+      DB82EDEAD1FFF1EFDCB000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000F3F1
+      E0AEECE9D0FFEFEDD78500000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000F1EF
+      DCD7EEEBD3FFECEAD05A00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000EBE8D106F0EE
+      DAFCEFECD6FFEDEAD33000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000DFDCCB2FEEEB
+      D4FFEFEDD7FBE9E7D40900000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000C9C4BA02BFB9AE28B9B3
+      A843B6B0A65DB9B4AB67C0BCB46DC8C5BE6FD0CDC769D8D6CE60DEDCCF8ADDDA
+      C9FFE9E7D4D80000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000BFBAAC72E2DED6F2B4ACA1FF8D83
+      76FF867D71FF867E74FF8A837AFF98948CFFB3AFA9FFBBB6B1FFD1CFCCFFCBCB
+      C9FFDFDDDAFDF5F1EBB5DDD6CA03000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000BAB2A383D9D5CBFEEDEAE4FFF4F1
+      ECFFF8F5F0FFFAF7F2FFFAF7F3FFFAF8F3FFFAF8F3FFFAF8F3FFF9F7F2FFF9F6
+      F2FFF8F5F0FFE4DED6D6D4C9B904000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000C2B19B2CC4B4A1DBCBC6B9DCBEB7
+      A8DCBBB2A0E3B4AB99D9ACA390CFAAA18ED1ACA390D5ADA493D9B5AD9AFBBEB7
+      A3FFA99E88D6997E5C5200000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B9A08436DCCFC0D5F8F6F0CCF6F1
+      E5C1F2E9D7BAF0E7D490ECE3CB64ECE1C85AF1E9D669F4EEDF7DEEEBD5FDEDE8
+      D1FFF0ECDDB6B597703900000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000BCA48842DFD3C5D4F9F7F2D5F9F6
+      F0E5F5EEE0D0F3EBDA94EFE5CC5FEFE4C955F4ECD864F5F0DF8FEDEAD2FFEEEC
+      D6FEF7F3EDD0BA9C763D00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000BDA4884DE1D6C9D4F9F7F2D3F9F5
+      EDE1F4EDDFCDF2EAD88CEEE4C95CEEE3C653F3EBD560F3EFDCA1ECE9CFFFF1F0
+      DDF9F9F6F2D0BDA07B4100000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000BCA48756E4D9CDD2F9F7F1D0F8F3
+      EADCF4ECDDC8F1E8D582EDE2C659EEE2C451F3EAD35DF3EFDBB6EBE9CEFFF3F2
+      E2EFFAF8F4CEBA9B754500000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B79D7F5FE6DDD1D1F9F6F0CCF7F2
+      E7D8F3EBDAC2F0E7D179EDE1C457EDE1C34FF2E8D059F1EEDBCFECE9CFFFF4F3
+      E4E1FBF9F5CBB7986F4800000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B498796CE8E0D4CEF8F6EFC8F6F0
+      E4D4F2EAD8BBEFE5CF71ECE1C356EDE1C24FF1E7CD56EFEDD7E7EDEBD3FFF6F3
+      E6CFFBF9F6C7BA9C734D00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B59A7B79EAE2D6CBF8F5EEC4F4EE
+      E1D0F1E8D5B5EEE4CC6BECE1C256EDE1C14EF0E5C957EDEBD4FDEEECD5FFF8F5
+      EAB6FCFAF6C2BD9F785100000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B69B7D84EAE3D7C8F7F4ECC0F4EC
+      DECDF0E7D3AEEDE3CA66ECE1C256EDE1C14EEEE4C770ECEAD1FFEEEBD3FCFBF8
+      EF9BFCFAF6BCC0A37C5500000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B79C7E8DECE4D8C4F6F3EABCF3EB
+      DBC8EFE6D1A7ECE2C763ECE1C256EDE1C14EEDE5C98CEBE9CEFFEFEBD5E9FBF7
+      EE8DFCFAF5B4C5A9845800000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B0937299ECE5D9C0F5F1E7BAF2EA
+      D9C2EFE5CFA0ECE1C661ECE1C256EDE1C14EEEE7CCA9EBE8CDFFF0EBD5D0FAF6
+      EB82FCFAF4ACC9B08D58CAB29105000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B29576A6EDE7DBBCF4EFE4B7F1E8
+      D6BCEEE4CE9BEBE0C460ECE1C256EDE1C14EEEE9D0C8EBE9CDFFF1EAD3B5FAF5
+      E97AFCF9F3A2CDB49358CAB19109000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B49879B1EDE7DBB8F4EEE1B6F0E7
+      D4B8EEE3CD95EBE0C35FECE1C256EDE1C14EEDE9D0E5ECE9CFFFF1EAD299F9F4
+      E673FBF8F198D0BA9958CBB3930E000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000C6B19804BBA386BBEFE9DDB4F2ECDEB4F0E6
+      D2B4EDE2CB8DEBE0C35FECE1C256ECE1C154ECEACFFDECE8CEFFF3EBD37BF9F3
+      E56FFBF8EF8EDAC7A95AC7AD8B17000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000BCA48739D0C0ABC1F1ECE1B0F1E9D8B2EFE5
+      D1B1ECE2C981EBE0C35FECE1C256ECE2C371EBE8CCFFEBE5CAFBF5ECD65EF9F2
+      E36BFBF6EC7DEBDFCB66BC9D762F000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000B3987979E5DCCEC4F2EDE1ACF0E8D6B8EFE5
+      D0AFEBE1C775EBE0C35FECE1C256ECE4C78EEAE7CAFFECE3C7E2F5EBD456F8F2
+      E167FBF6EA79F7F1E475B9997048000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000C3AD9407BBA386B8EFEAE0C1F2ECE0ACF0E7D4BBEEE4
+      CFABEAE0C66BEBE0C35FECE1C256ECE6C9ABE9E6C8FFECE1C3C4F4EAD152F8F1
+      DF63FAF5E975FBF6EC7FD3BC9C54C2A582150000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000BCA48942D3C3AFC6F2EEE4BDF1EBDDB1EFE6D3BAEEE3
+      CDA0EAE0C569EBE0C35FECE1C256ECE7CCC9E9E4C6FFEBE0BFA4F3E8CD4EF7F0
+      DD5FFAF5E872FCF8EF84EDE2CE5FB5946B330000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000B59B7D8FE8E0D4CAF3EFE5BAF1EADAB6EFE5D2B8EDE2
+      CC94EAE0C469EBE0C35FECE1C256EBE7CCE6E9E2C4FFEBDFBC85F3E7CA4AF7EF
+      DB5BFAF4E66EFCF8EF82F8F2E46DC0A27C50C9B08F0600000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000C1AB931AC2B19EDEEAE8E4E8F2EFE9D5F2EBDECCEFE5D1B6ECE2
+      CA88EAE0C469EBE0C35FECE1C25BEAE7CAFDE9E0C1FFEDE0BD66F2E6C747F6EE
+      D857FAF3E46AFCF8ED7EFCF7EE7EE0D1B756B5956E2400000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000B8A0856ADED3C4CCF4F1E9CAF1EEE4BFF1EADACEEEE4D0B5EBE1
+      C87CEAE0C469EBE0C35FEBE2C477E8E4C5FFE8DDBDFBEFE2C04AF1E4C445F6ED
+      D554F9F3E366FBF7EC79FDF9F28BF5ECDD5FB18F654600000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000C5B19B03BAA186B8EBE6DED8F3F0E8C8F1ECDFB6EFE6D4C1EEE4CFB0EAE0
+      C774EAE0C469EBE0C35FEBE3C594E8E1C1FFE8DBBAE2EFE2C045F1E3C143F5EB
+      D350F9F2E162FBF6EB75FDFAF28DFAF5E96AD0B99C58BA9B7716000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000BCA68D44D2C3B0CDEDECE8E7EDECE9EAF0EBE2D5EEE6D3BFEDE3CEA6E9DF
+      C673EAE0C469EBE0C35FEBE4C7B0E7DFBDFFE9DBB8C4EFE2BF45F0E3C042F5EA
+      CF4CF8F1DF5EFBF6EA71FCF9F189FCF9F07EF0E6D560A9855A36000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000B8A0859CE8E1D5D3F5F3ECD5F2EEE5C0F0E9DABFEEE5D2BEECE2CC9AE9DF
+      C673EAE0C469EBE0C35FEAE4C7CCE7DCBAFFE9DBB8A5EFE2BF45F0E2BF41F4E8
+      CC48F8F0DD5AFBF5E86DFCF9F084FDFBF490F9F4E761BDA07E58C0A483090000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000C2AF
+      9822C8B6A1D3E4E2E0F2ECEBE8EDF0EEE8D9F1EADDD4EFE6D3C0EBE1CB8FE9DF
+      C673EAE0C469EBE0C35FE8E3C3E8E7DAB7FFEADCB887EFE2BF45F0E2BE41F3E7
+      C845F8EFDA56FAF5E669FCF8EF7EFDFBF598FCF8ED6BE5D8C564A9855C290000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000BAA3
+      8A7CE0D7CAD4F6F4EFDFF3F1EAD3F1EDE5CDF1EBDDDEEFE7D4C3EAE0C985E9DF
+      C673EAE0C469EBE0C365E7E0BEFDE6D7B3FFECDEBB6AEFE2BF45F0E2BE41F3E6
+      C542F7EED852FAF4E565FCF8EE79FDFBF596FDFAF280F8F2E768AE8C654FC2A8
+      8901000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000C6B49F0AC1AC
+      95CEE5E2DDEAF4F2EDE3F3F0E8CDF0EBDFBFEEE6D4C6EDE4D0B5E9DFC87EE9DF
+      C673EAE0C469EAE1C37FE6DCB9FFE5D3AFFBEEE1C14EEFE2BF45F0E2BE41F2E4
+      C240F7EDD54EFAF3E360FCF7EC74FDFBF491FDFBF695FCF7ED65D4C0A864AE8D
+      681D000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000BDA89159D9CE
+      BFDBF1F0EBE5EFEEEBECF2F0EDEAF6F2EBE9EEE6D4C5ECE3CEABE8DFC77DE9DF
+      C673EAE0C469E9E0C29AE5D9B4FFE5D4AEE3EEE1C04AEFE2BF45F0E2BE41F1E4
+      C03EF6EBD24AF9F3E15CFCF7EB70FDFAF38AFEFCF7A1FDF9F06DF5EFE5739E76
+      4B3E000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000BBA58EBAE9E3
+      DADCF7F6F2E7F5F2EDDAF2EEE5C7EFE8D9C7EEE5D2C3EBE2CDA1E8DFC77CE9DF
+      C673EAE0C469E8E0C0B5E4D6B0FFE4D0AAC8E9D8B74DEFE1BF45F0E2BE41F1E3
+      BE3DF5EACE46F9F2DF58FBF6EA6CFDFAF284FEFCF8A3FDFBF380FCF8F06FBFA5
+      8662AF8A680F0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000B89A8136CCBEAFEBE1DB
+      D8F8EAE7E5F8EEEBE8EEE8DBD3EADFC7BAEFD2AC98F0B87C5EF4B27051F8B26F
+      50FAB16E4EFCD6BC98FEE4D4ADFFCB9F7BFFB16D4DFFB06B4BFEAF6B4BFAB06B
+      4BF7B37254F3BF886DE7CFA590DBDAB9A8D8E6CFC4DAEBDAD0C4ECDACD95E4D5
+      C784986A3E2E0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000AE896C9AC09079FCE3CB
+      BFFFE7D2C7FFE1C8B9FFDEC1B1FFE0C2B1FFDBB7A1FFC99270FFCA916EFFCB92
+      6EFFCC936FFFE1D0ABFFE4D1A9FFD6A982FFCE956FFFCE956EFFCD936DFFCC91
+      6BFFCC936FFFD09C7CFFD4A68BFFD9B19BFFE1C3B2FFE4CCBEFFCFA48FFFC89A
+      85FE96502ACEA66C490600000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B38B7115AC7B5DF1C68F77FFE3D6
+      CFFFE3CBBBFFDBB69EFFD1A488FFCD9C7FFFCC9878FFCF9976FFD5A27EFFD9A8
+      83FFDDAD88FFE3C8A2FFE4CBA4FFE7C19BFFEBC29CFFECC49EFFEBC49EFFEAC1
+      9CFFE5B994FFDDB08DFFD9AC8EFFD9AF93FFDEBAA2FFE4C9B5FFD2A483FFD095
+      7CFFB07053FF98522B5300000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000AF8B706EB78167FEDAAC99FFE9D4
+      C4FFE5D3BFFFE7D7C6FFE9D6C1FFCC9454FFB86A15FFAF5901FFAD5601FFAD57
+      04FFAD5706FFAF5E10FFC58B54FFBF7B39FFAE5B0BFFAE5807FFAD5705FFAD57
+      02FFAE5804FFB86A19FFC38035FFCD9252FFD8AA78FFE7C8A7FFDEB78BFFD89B
+      7BFFCD9982FF8E4117B500000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000B49883D3CAA594FFEAC9BAFFEACF
+      B5FFE4BE99FFD6A36DFFC88A44FFC07929FFB86910FFB45F00FFB45F00FFB45F
+      00FFB45F00FFBC711CFFD8AA71FFCD9045FFB45F00FFB45F00FFB45F00FFB45F
+      00FFB46001FFBA6C14FFC27D30FFCB8F4CFFD5A56FFFE5C3A0FFE6C7A5FFD79E
+      75FFD9A48DFFA25C3BFAA05F3B1B000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000B491783BB38167FCD5B7A9FFE8E1DDFFE7DD
+      D1FFE7D0B9FFDBB389FFCD9658FFC37F33FFB8680EFFB45F00FFB45F00FFB45F
+      00FFB45F00FFC58338FFDAAC72FFCB8B3FFFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB86910FFC07A2BFFCA8C47FFD3A068FFE2BE97FFEBD1B5FFD9A7
+      7AFFDFA991FFC08B72FF934A2279000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000AB82659CC3947EFFE0B5A2FFF0DBCBFFE9CD
+      B0FFE4C4A5FFDCB993FFDDBC97FFE0C09DFFD2A169FFB45F00FFB45F00FFB45F
+      00FFB45F00FFCF9858FFDDB076FFC78434FFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB7660BFFBF7726FFC88942FFD19C61FFE0B88FFFEDD3B8FFDFB7
+      8CFFDEA78CFFD6A894FF914820D7000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000B58D730DAF8267F1CB9B87FFECCBBDFFEFD8C4FFEACA
+      ABFFDEB285FFCD9353FFC38035FFBC701AFFB56104FFB45F00FFB45F00FFB45F
+      00FFB45F00FFDAAF7AFFE0B67BFFC17824FFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB66408FFBE7421FFC6863DFFCF985AFFDDB386FFEBCFB3FFE7C7
+      A6FFDCA784FFDFB09BFFAD6F51FEA0603C2D0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000B4907756BA8970FDD4A38EFFF1D9CEFFEDD5BDFFEAC9
+      A9FFDBAC7CFFCB8E4BFFC27D2FFFBA6D16FFB46001FFB45F00FFB45F00FFB45F
+      00FFB46001FFE5C699FFE4BE87FFB9690FFFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB56205FFBC711CFFC58238FFCD9454FFDAAD7DFFE9CBACFFEDD3
+      B9FFDCA981FFE4B49FFFC89A84FF954C257F0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000AB8265ABCBA18EFFDFB19DFFF3E1D5FFEDD4BAFFE8C4
+      A3FFD8A673FFC98A45FFC07A2AFFB96911FFB45F00FFB45F00FFB45F00FFB45F
+      00FFBA6D16FFE8CCA0FFE2B980FFB45F00FFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB46002FFBB6E17FFC37F33FFCC914FFFD7A875FFE7C6A5FFF0DA
+      C4FFDEB186FFE4B29CFFD9AF9EFF964F29D10000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000B38D750DB1856BF4D0A592FFEBC5B4FFF2E0D1FFEDD3B9FFE6BF
+      9BFFD5A069FFC78740FFBF7725FFB7660CFFB45F00FFB45F00FFB45F00FFB45F
+      00FFC58336FFE8C899FFD8A766FFB45F00FFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB45F01FFB96B12FFC17C2EFFCA8E4AFFD5A36CFFE4C19DFFF0D9
+      C4FFE4BE98FFE2B094FFE1B7A5FFAF7457FE9F63402600000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000AC8B7354B88A73FED5A997FFEECEC0FFF1DDCBFFEDD1B7FFE3BA
+      93FFD29A5FFFC6843BFFBD7420FFB66408FFB45F00FFB45F00FFB45F00FFB45F
+      00FFCE9855FFE7C593FFCF944BFFB45F00FFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB45F00FFB8680EFFC07929FFC98B45FFD29E64FFE2BC95FFEFD6
+      BEFFE9C9ABFFE0AE8DFFE7BCA9FFC69984FF97512B7400000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000009D775D95C49F8EFFD7AD9BFFEED3C7FFEFDAC5FFEDCFB3FFE0B5
+      8AFFCF9556FFC48136FFBC711CFFB56104FFB45F00FFB45F00FFB45F00FFB45F
+      00FFD9AD75FFE6C28EFFC58131FFB45F00FFB45F00FFB45F00FFB45F00FFB45F
+      00FFB45F00FFB45F00FFB7650AFFBE7624FFC78740FFD09A5EFFDFB68CFFEDD2
+      B8FFEDD1B7FFDEAC86FFE9BDAAFFD6B1A0FF914720B100000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000098745BC7C7A89AFFD6AE9DFFECD4C8FFEBD6C0FFEACBAEFFDDAF
+      81FFCE914EFFC88031FFC47117FFC46503FFC66500FFC86601FFCB6701FFCD68
+      01FFE0AB6EFFD9A562FFD67513FFD36A03FFD36A02FFD36A02FFD16902FFCF69
+      02FFCE6802FFCB6701FFC96A07FFCB7720FFCF883CFFD49858FFDDB183FFEBCE
+      B1FFF0D7C0FFDDAB82FFE8B9A5FFDAB4A3FF974F2ADF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000977761EBC1A597FFD2AA99FFE6CEC1FFE7D1BCFFEEC8A7FFE9AE
+      78FFE39448FFE1862DFFDF7814FFDD6E03FFDE6E03FFDE6F04FFDF6F05FFDF70
+      06FFE07108FFDF730BFFE17208FFE17209FFE17209FFE17209FFE17209FFE172
+      09FFE07208FFE07108FFE0730AFFE27F1FFFE58E3AFFE89D54FFEDB27BFFF3CD
+      AAFFF3D8C0FFDCA97DFFE6B5A0FFDAB2A1FF9F5734F600000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000008E6E58D9B99D91FFC39D8CFFD8B7A8FFE1CAB3FFEEC39FFFE5A7
+      6FFFDE8F43FFDE822AFFDE7612FFDF7006FFE07108FFE17209FFE2730BFFE375
+      0DFFE3760EFFE47710FFE57811FFE57812FFE57912FFE67A13FFE67A13FFE67A
+      13FFE57912FFE57811FFE57812FFE68222FFE8903BFFEA9E54FFEEB076FFF4CA
+      A4FFF1CBA9FFDAA275FFE4B099FFD0A492FF8D3B12ED00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000008C705C59997866FDA68374FFB58A75FFD1B09BFFE5B68DFFE0A0
+      66FFD98A3FFFD87D26FFD97110FFDC7009FFE1730CFFE3760FFFE57811FFE67A
+      13FFE77B16FFE87D18FFE97F1AFFEA801DFFEB811FFFEB8220FFEC8321FFEC83
+      21FFEB8321FFEB8220FFEA811EFFEB872AFFEC9340FFEDA057FFEFAF72FFF4C4
+      99FFE8A76CFFD99872FFD29C81FFA86443FF893B128300000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000006D52425D876451F58E6652FF94624AFFB78461FFD694
+      58FFD3843AFFD27721FFD26C0DFFD66D0AFFDB710DFFE17511FFE57A14FFE87D
+      18FFEA801CFFEB8220FFEC8524FFEE8728FFEF8A2BFFF08C2EFFF18D31FFF28F
+      33FFF39033FFF28F33FFF18D30FFF09036FFF09947FFF0A25AFFF0AC6BFFEAA1
+      5FFFD58651FFC88560FFA9613CFF843109A68644240300000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000482D1E2F5A3827C572442DFE6E371BFF8142
+      1DFFAE6529FFC56D1BFFC96608FFCE6808FFD36C0AFFD9700EFFDE7512FFE47A
+      16FFE97F1CFFEC8321FFED8626FFEF8A2BFFF18E31FFF39137FFF6953CFFF799
+      42FFF99C47FFF99D49FFF89A44FFF4963FFFF19947FFEC994CFFDD853DFFC36B
+      34FFAE5C2FFF903E15FD541A00944F230C0A0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000432013042F0C001B3010047B401A09D34D1A
+      03F95C1F03FE6C2A07FF853906FF9C4907FFB05708FFC06109FFCB690BFFD36E
+      0EFFDB7412FFE27916FFE77E1BFFE9811FFFEB8423FFED8728FFEE8A2DFFEE8D
+      32FFED8F36FFEA8E36FFE38631FFD67829FFC66927FFAF5119FF9A3B0AFE7C2B
+      05F9541900D1330D00772F0C001B471704040000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000321103052F0A00102E0D00242E0C
+      004A2F0D007E3B1202A9491703CC511900E5622103F46D2402FA7A2B04FD8A36
+      08FE953E09FF9C420BFFA2470DFFA74A0EFFAA4C0FFFA94B10FFA54A11FFA046
+      10FE98400EFD8D3509FB7D2B05F46F2402E65D1C00CD4B1600AA350F007E2E0C
+      004A2E0D0024300A0010350F0005000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000002E0C00012F0C00042F0D
+      0009300C000F300C00172F0E001F2E0D002B2F0C00382F0C004C2E0C005B2F0D
+      00682F0D00752F0C007B2F0C00802E0C00832F0C00802F0C007B2F0D00752F0D
+      00682E0C005B2F0C004C2F0C00382E0D002B2F0E001F300C0017310D000F310D
+      0009320D0004300C000100000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00002F0C00012F0C00022F0A00032F0F0005310A00072F0F00092D0D000B300A
+      000C300C000E2D0F000F300E001031100010300E00102D0F000F300C000E300A
+      000C2E0D000B300F0009320B0007300F0005300A0003300C00022F0C00010000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000
+    }
+  end
+end
